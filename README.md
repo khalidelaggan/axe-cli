@@ -34,9 +34,13 @@ axe https://www.digital.canada.ca, www.canada.ca
 
 ## How it works 
 
+It's a platform agnostic, it runs against anysite and any collections of URLs, so no code integrations required for any project.
+
 It's using the Axe core JavaScript library and phantom JS to head this browser to go hit www.digital.canada.com, run Axe's accessibility rules, and then return a result.
 
 Axe CLI is very helpfully reminding us that that doesn't cover all of it. You still need to test for accessibility manually. You need to test with the keyboard, make sure you can operate everything. You need to check the quality of your alt text and transcript content and things that require a human to review.
+
+Depending on the size of the web page, it might take a second to complete, but this is a great tool that we could put in our continuous integration environment or just in our development workflow.
 
 Something else we could do is tell it to use a different browser. Say, we wanted to run it with Selenium WebDriver and a real browser instance which would be more like a real user's experience. We could tell Axe CLI to use Chrome, Firefox, Edge, or whatever browser drivers you have installed on your machine.
 
