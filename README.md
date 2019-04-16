@@ -127,7 +127,7 @@ axe www.deque.com --load-delay=2000
 
 ## Reference 
 
-This documntation is customized for CDS internal use to make it easy to understand this simple 101 applicable reporting tool that generate JSON file that contains the audit results of all the accessibility violations for any given website.
+This documntation is customized for CDS internal use to make it easy to understand this simple 101 applicable reporting tool that generate JSON file which contains the audit results for all accessibility violations for any given url.
 
 Please refer to the axe-cli repo for full documentation https://github.com/dequelabs/axe-cli
 
