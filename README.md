@@ -6,7 +6,6 @@
 [![Version](https://img.shields.io/npm/v/axe-cli.svg)](https://www.npmjs.com/package/axe-cli)
 [![License](https://img.shields.io/npm/l/axe-cli.svg)](LICENSE)
 
-Provides a command line interface for [aXe](https://github.com/dequelabs/axe-core) to run quick accessibility tests.
 
 ## Getting Started
 
