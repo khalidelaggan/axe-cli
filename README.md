@@ -32,6 +32,15 @@ axe https://www.digital.canada.ca, www.canada.ca
 
 **Note:** If you are having difficulty with the color scheme, use `--no-color` to disable text styles.
 
+## How it works 
+
+It's using the Axe core JavaScript library and phantom JS to head this browser to go hit www.digital.canada.com, run Axe's accessibility rules, and then return a result.
+
+Axe CLI is very helpfully reminding us that that doesn't cover all of it. You still need to test for accessibility manually. You need to test with the keyboard, make sure you can operate everything. You need to check the quality of your alt text and transcript content and things that require a human to review.
+
+Something else we could do is tell it to use a different browser. Say, we wanted to run it with Selenium WebDriver and a real browser instance which would be more like a real user's experience. We could tell Axe CLI to use Chrome, Firefox, Edge, or whatever browser drivers you have installed on your machine.
+
+
 ## Running specific rules
 
 You can use the `--rules` flag to set which rules you wish to run, or you can use `--tags` to tell axe to run all rules that have that specific tag. For example:
@@ -111,3 +120,11 @@ If you find your page is not ready after axe has determined it has loaded, you c
 ```
 axe www.deque.com --load-delay=2000
 ```
+
+## Reference 
+
+This documntation is customized for CDS internal use to make it easy to understand this simple 101 applicable reporting tool that generate JSON file that contains the audit results of all the accessibility violations for any given website.
+
+Please refer to the axe-cli repo for full documentation https://github.com/dequelabs/axe-cli
+
+
